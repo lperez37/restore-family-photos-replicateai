@@ -2,7 +2,9 @@
 
 ![Sample](sample.png)
 
-One of those 'scratching my own itch' type of Github repo. A comprehensive solution for restoring and enhancing old photographs using open-source AI models on rented GPUs. This suite combines colorization and face restoration techniques to breathe new life into your old family photos. Just did a batch of c. 350 family photos and 
+One of those 'scratching my own itch' type of Github repo. A comprehensive solution for restoring and enhancing old photographs using open-source AI models on rented GPUs. This suite combines colorization and face restoration techniques to breathe new life into your old family photos.
+
+Just did a batch of c. 350 family photos and that costed me less than 1 dollar on a expensive datacenter Nvidia L40S GPU (USD 3,51 per hour) via Replicate.
 
 ## Features
 
@@ -28,8 +30,8 @@ After processing completes, you'll find:
 
 ## Models Used
 
-- **Colorization**: DDColor model via Replicate API
-- **Face Restoration**: GFPGAN v1.4 via Replicate API
+- **Colorization**: DDColor model via Replicate API: [https://replicate.com/piddnad/ddcolor](https://replicate.com/piddnad/ddcolor) 
+- **Face Restoration**: GFPGAN v1.4 via Replicate API: [https://replicate.com/tencentarc/gfpgan](https://replicate.com/tencentarc/gfpgan)
 
 
 ## Running with Docker
