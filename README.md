@@ -1,29 +1,29 @@
-# Photo Restoration Suite
+# Photo Restoration Python script
 
 ![Sample](sample.png)
 
-A comprehensive solution for restoring and enhancing old photographs using AI models. This suite combines colorization and face restoration techniques to breathe new life into your old family photos.
+One of those 'scratching my own itch' type of Github repo. A comprehensive solution for restoring and enhancing old photographs using open-source AI models on rented GPUs. This suite combines colorization and face restoration techniques to breathe new life into your old family photos. Just did a batch of c. 350 family photos and 
 
 ## Features
 
 - **Photo Colorization**: 
   - Colorize black & white photos
-  - Convert red-tinted photos to black & white, then colorize them
+  - Convert red-tinted photos (degraded film) to black & white, then colorize them
 - **Face Restoration**: 
-  - Enhance and restore face details using GFPGAN
+  - Enhance and restore face details using GFPGAN model
   - Fix blurry, low-quality, or damaged facial features
 - **Batch Processing**:
   - Process multiple photos at once
   - Progress tracking with status updates
 - **Docker Support**:
-  - Easy deployment with Docker
+  - Easy deployment with Docker, so you do not have to mess around dependecies and that kind of stuff
   - Consistent environment across platforms
 
 ## Output
 
 After processing completes, you'll find:
 - Colorized photos in the `colorized/` directory
-- Face-restored photos in the `gfpgan/` directory
+- Restored photos in the `gfpgan/` directory
 - Original photos remain unchanged in their respective directories
 
 ## Models Used
@@ -74,7 +74,7 @@ The restoration process happens in two stages:
 
 2. **Face Restoration Stage**:
    - All photos (including newly colorized ones) are processed with GFPGAN model
-   - 
+
 
 
 
