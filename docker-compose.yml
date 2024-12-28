@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  photo-restore:
+    build: .
+    volumes:
+      - ./photos:/app/photos
+      - ./colorized:/app/colorized
+      - ./gfpgan:/app/gfpgan
+    environment:
+      - REPLICATE_API_TOKEN=${REPLICATE_API_TOKEN} 
